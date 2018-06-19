@@ -8,6 +8,72 @@
         <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <button class="btn btn-info">Hello World!</button>
+        <!-- HTML原生表格 -->
+        <table>
+            <thead>
+                <tr>
+                    <th>第一列</th>
+                    <th>第二列</th>
+                    <th>第三列</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>内容1.1</td>
+                    <td>内容1.2</td>
+                    <td>内容1.3</td>
+                </tr>
+                <tr>
+                    <td>内容2.1</td>
+                    <td>内容2.2</td>
+                    <td>内容3.3</td>
+                </tr>
+                <tr>
+                    <td>内容3.1</td>
+                    <td>内容3.2</td>
+                    <td>内容3.3</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- 带边框表格 .table-bordered；条纹状表格 .table-striped；悬停变色 .table-hover；紧凑风格 .table-condensed -->
+        <!-- 更多的表格样式这里并没有提及，需要自己查文档了解 -->
+        <table class="table table-bordered table-striped table-hover table-condensed">
+            <thead>
+                <tr>
+                    <th>第一列</th>
+                    <th>第二列</th>
+                    <th>第三列</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 设置某一行的样式 -->
+                <tr class="danger">
+                    <td>内容1.1</td>
+                    <td>内容1.2</td>
+                    <td>内容1.3</td>
+                </tr>
+                <tr class="warning">
+                    <td>内容2.1</td>
+                    <td>内容2.2</td>
+                    <td>内容3.3</td>
+                </tr>
+                <tr class="info">
+                    <td>内容3.1</td>
+                    <td>内容3.2</td>
+                    <td>内容3.3</td>
+                </tr>
+                <tr class="success">
+                    <td>内容4.1</td>
+                    <td>内容4.2</td>
+                    <td>内容4.3</td>
+                </tr>
+                <tr class="active">
+                    <td>内容4.1</td>
+                    <td>内容4.2</td>
+                    <td>内容4.3</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
     </body>
 </html>

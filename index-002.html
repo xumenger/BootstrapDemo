@@ -92,5 +92,53 @@
                 </tr>
             </tbody>
         </table>
+        <hr>
+
+        <!-- html原生表单 -->
+        <form>
+            <div>
+                <label for="">这是一个输入框：</label>
+                <input type="text" placeholder="这是一个输入框"/>
+            </div>
+            <div>
+                <label for="">地址：</label>
+                <select name="" id="">
+                    <option value="">北京</option>
+                    <option value="">杭州</option>
+                    <option value="">上海</option>
+                </select>
+            </div>
+            <div>
+                <label for="">介绍：</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </form>
+        <hr>
+        <hr>
+        <!-- Bootstrap给HTML大部分表单都设置了默认样式，可以给表单添加相应的类名，以实现表单的水平排列、个性化定制等 -->
+        <!-- .form-inline：水平排列；-->
+        <form class="form-inline">
+            <div class="form-group has-success">
+                <label class="control-label" for="">这是一个输入框：</label>
+                <input type="text" class="form-control" placeholder="这是一个输入框"/>
+            </div>
+            <div class="form-group has-error">
+                <label class="control-label" for="">这是一个输入框：</label>
+                <input type="text" class="form-control" placeholder="这是一个输入框"/>
+            </div>
+            <div class="form-group has-warning">
+                <label class="control-label" for="">地址：</label>
+                <select name="" id="" class="form-control">
+                    <option value="">北京</option>
+                    <option value="">杭州</option>
+                    <option value="">上海</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">介绍：</label>
+                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+            </div>
+        </form>
+        <hr>
     </body>
 </html>
